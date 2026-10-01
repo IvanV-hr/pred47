@@ -9,6 +9,6 @@ export function Oprema(oprema, odabrana) {
             ${Button(odabrana ? "Ukloni" : "Dodaj", "", { "data-id": oprema.id, "data-action": "dodaj" })}
             ${Button("Promijeni naslov", "", { "data-id": oprema.id, "data-action": "patch" })}
             ${Button("Obriši", "", { "data-id": oprema.id, "data-action": "delete" })}
-        <div>
+        </div>
     `;
 }

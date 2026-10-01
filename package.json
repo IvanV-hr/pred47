@@ -2,7 +2,7 @@
   "name": "predavanje47git",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "start": "vite",
     "format": "prettier --write .",
